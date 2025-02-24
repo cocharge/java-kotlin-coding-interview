@@ -3,7 +3,7 @@ package org.example.enums;
 import java.util.Random;
 
 public enum Move {
-    ROCK, PAPER, SCISSORS;
+    ROCK, PAPER, SCISSORS , Spock,Lizard;
 
     private static Random random = new Random();  // Default random instance
 

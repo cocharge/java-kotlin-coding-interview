@@ -12,7 +12,7 @@ public class Main {
         int totalRounds = 100;
 
         for (int i = 0; i < totalRounds; i++) {
-            Move playerAMove = Move.ROCK;
+            Move playerAMove = Move.getRandomMove();
             Move playerBMove = Move.getRandomMove();
 
             switch (game.play(playerAMove, playerBMove)) {
